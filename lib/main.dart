@@ -96,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox( height: 10,),
             Container(
-              margin: const EdgeInsets.only(left:  250, ),
+              margin: const EdgeInsets.only(left:  200, ),
               child: Image.asset("lib/images/png4.png", color: Colors.orangeAccent,width: 100,height: 100,
               ),
             ),
@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 Container(
 
-                  margin: const EdgeInsets.only(left:70, ),
+                  margin: const EdgeInsets.only(left:50, ),
                   child: Image.asset("lib/images/png1.png", color: Colors.purpleAccent,
                   ),
 
@@ -115,43 +115,43 @@ class _MyHomePageState extends State<MyHomePage> {
                   SizedBox( width: 40),
                 Container(
 
-                  margin: const EdgeInsets.only(left:70, top: 100 ),
+                  margin: const EdgeInsets.only(left:50, top: 100 ),
                   child: Image.asset("lib/images/png5.png", color: Colors.lightGreen, height: 70, width: 70,
                   ),
 
                 ),
               ],
             ),
-                 SizedBox(height: 30,),
+                 SizedBox(height: 5,),
 
                  Padding(
                    padding: const EdgeInsets.symmetric(horizontal: 25.0),
                    child: Text("Earn Money", style: GoogleFonts.josefinSans(color: Colors.white, fontWeight: FontWeight.bold
-                   , fontSize: 40),
+                   , fontSize: 10),
                    ),
                  ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Text("Trade Crypto", style: GoogleFonts.josefinSans(color: Colors.white, fontWeight: FontWeight.bold
-                  , fontSize: 40),
+                  , fontSize: 10),
               ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Text("Spend Cash", style: GoogleFonts.josefinSans(color: Colors.white, fontWeight: FontWeight.bold
-                  , fontSize: 40),
+                  , fontSize: 10),
               ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Text("Anywhere", style: GoogleFonts.josefinSans(color: Colors.lightGreen, fontWeight: FontWeight.bold
-                  , fontSize: 40),
+                  , fontSize: 10),
               ),
 
       ),
 
                  const SizedBox(
-                   height: 20,
+                   height: 10,
                  ),
                GestureDetector(
                  onTap: () {
@@ -161,13 +161,16 @@ class _MyHomePageState extends State<MyHomePage> {
                  child: Padding(
                    padding: const EdgeInsets.symmetric(horizontal: 25),
                    child: Container(
-                     height:  60,
+                     height:  50,
                      width: double.infinity,
                      decoration: BoxDecoration ( color: Colors.lightGreen, borderRadius: BorderRadius.circular(15)),
                      child: Center(
-                       child: Text( 'Exchange', style:
-                         GoogleFonts.asapCondensed(color: Colors.black87, fontWeight: FontWeight.bold
-                           , fontSize: 30),),
+                       child: Padding(
+                         padding: const EdgeInsets.all(5.0),
+                         child: Text( 'Exchange', style:
+                           GoogleFonts.asapCondensed(color: Colors.black87, fontWeight: FontWeight.bold
+                             , fontSize: 30),),
+                       ),
                      ),
                    ),
                  ),
